@@ -14,7 +14,7 @@ library("maps")
 library("pracma")
 
 #Visualizar y leer el contenido de un archivo NetCDF
-setwd("~/UNAM/tesis/licenciatura/Genesis Nicholle Flores/codigos")
+setwd("")
 alist<-dir(pattern=glob2rx("*.nc"))
 
 nc<- nc_open(alist)
